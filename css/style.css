@@ -49,7 +49,8 @@ img {
 }
 
 .imgBorder{
-    border:solid 3px hsla(0, 0, 100%, 50%);
+    border:solid 2px  hsla(263, 89%, 64%, 0.581);
+    
 }
 
 #daniel {
@@ -72,39 +73,49 @@ img {
     background-color: var(--very-dark-blackish-blue);
 }
 
+.divWhiteText {
+    color: var(--white);
+}
 
 h1 {
     font-size: 1.2rem;
     font-weight: 600;
+    opacity: 70%;
 }
 
 h2 {
     font-size: 0.9rem;
     font-weight: 500;
+    opacity: 50%;
 }
 
 .pBold-Para {
     font-size: 1.5rem;
     margin-top: 1.2rem;
     color:var(--white);
+    font-weight: 600;
 }
 
 .pBold-ParaBLK {
     font-size: 1.5rem;
     margin-top: 1.2;
     color: hsla(0, 0, 100%, 0.5);
+    font-weight: 600;
 }
+
 
 .quote {
     margin-top: 1.4rem;
     color: var(--white);
     opacity: 50%;
+    font-weight: 500;
 }
 
 .quoteBLK {
     margin: top 1.4rem;
     color: hsla(0, 0, 100%);
     opacity: 50%;
+    font-weight: 500;
 }
 
 p {
