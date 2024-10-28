@@ -89,12 +89,28 @@ h2 {
     color:var(--white);
 }
 
+.pBold-ParaBLK {
+    font-size: 1.5rem;
+    margin-top: 1.2;
+    color: hsla(0, 0, 100%, 0.5);
+}
+
 .quote {
     margin-top: 1.4rem;
+    color: var(--white);
+    opacity: 50%;
+}
+
+.quoteBLK {
+    margin: top 1.4rem;
+    color: hsla(0, 0, 100%);
+    opacity: 50%;
 }
 
 p {
     line-height: 1.5;
+   
+
 }
 
 #daniel h2, #jonathan h2 {
