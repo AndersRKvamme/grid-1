@@ -6,8 +6,22 @@
     --white: hsl(0,0,100%);
 
     /* Neutral */
-    --light-gray: Light gray: hsl(0, 0%, 81%);
+    --light-gray: hsl(0, 0%, 81%);
     --Light-grayish-blue: hsl(210, 46%, 95%);
+
+    --barlow: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 375px;
 }
 
 * {
