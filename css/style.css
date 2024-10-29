@@ -28,6 +28,7 @@ body {
 
 main {
     max-width: 375px;
+    
 }
 
 article {
@@ -139,7 +140,8 @@ p {
     box-sizing:border-box;
 }
 
-@media only screen and (min-width: 500px) {
+/* Changed min-width to 1000px as when I had 500px it would not change as I made the window smaller, should be changed later */
+@media only screen and (min-width: 1000px) {
     main {
         max-width: 80%;
         display: grid;
